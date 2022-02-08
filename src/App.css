@@ -1,3 +1,19 @@
-body{
-    background-color: pink;
+*,
+*::after,
+*::before {
+    margin: 0;  
+    padding: 0;
+    box-sizing: inherit;   
+    text-decoration: none;
+}
+
+html{
+    font-size: 62.5%;    /*10px*/
+}
+
+body {
+    line-height: 1.7;
+    font-family: sans-serif;
+    color: #777;
+    box-sizing: border-box;
 }

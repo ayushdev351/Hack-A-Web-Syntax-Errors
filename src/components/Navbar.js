@@ -2,43 +2,49 @@ import React from "react";
 import {Link, NavLink} from 'react-router-dom';
 
 import './Navbar.css';
+import '../App.css';
 
 function Navbar() {
     return(
-        <div>
-           <Link to="/">
-           <i className="fa-solid fa-user-doctor-message">DoCall</i>
+        <div className="Navbar">
+          <div className="NavbarLeft">
+            <Link to="/" className="Logo">
+             DoCall
            </Link>
+          </div>
 
-           <div className="nav-center">
+           <div className="NavbarRight">
            <NavLink
+          className="Home Links "
+          exact={true}
           to="/"
-          style={(isActive) => ({
-            filter: isActive ? "brightness(2)" : ""
-          })}
+          
         >
           <p>Home</p>
         </NavLink>
         <NavLink
+          style={{ textDecoration: 'none' }}
+          className="Consult Links"
           to="/consult"
-          style={(isActive) => ({
-            filter: isActive ? "brightness(2)" : ""
-          })}
+          
         >
           <p>Consult</p>
         </NavLink>
         <NavLink
+          className="Predict Links"
           to="/predict"
-          style={(isActive) => ({
-            filter: isActive ? "brightness(2)" : ""
-          })}
+          
         >
           <p>Predict</p>
+        </NavLink>
+        <NavLink to="/login" className= "Login Links">Login
+        </NavLink>
+        <NavLink to="/signUp" className= "SignUp Links">SignUp
         </NavLink>
            </div>
         </div>
 
-    )
+    );
 }
 
 export default Navbar;
