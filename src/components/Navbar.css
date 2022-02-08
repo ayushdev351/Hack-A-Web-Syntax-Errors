@@ -17,7 +17,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    font-size: 1.3rem; 
+    font-size: 1.5rem; 
     font-family: sans-serif;
     font-weight: bold;
     color: white; 
@@ -35,10 +35,11 @@
    border-radius: 0.6rem;
 }
 
-.Login{
-    background-color: #ffd800;
+.SignUp{
+    background-color: aqua;
 }
 
-.SignUp{
-    background-color: #ffd800;
+.Links:active,
+.Links:hover{
+    filter: brightness(1.05);
 }

@@ -1,0 +1,15 @@
+.HomeTop{
+    height: 93vh;
+}
+
+.upper{
+    height: 45vh;
+}
+
+
+.topImage{
+    text-align: center;
+    background-position: top; 
+    width: 100%;
+    height: 48vh;
+}

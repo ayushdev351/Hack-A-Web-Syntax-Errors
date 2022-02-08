@@ -15,16 +15,24 @@ function Navbar() {
 
            <div className="NavbarRight">
            <NavLink
-          className="Home Links "
-          exact={true}
+          className="Home Links"
+          exact="true"
+          style={isActive => ({
+            color: isActive ? "#000060" : "000060"
+          
+          })}
+         
           to="/"
           
         >
           <p>Home</p>
         </NavLink>
         <NavLink
-          style={{ textDecoration: 'none' }}
           className="Consult Links"
+          style={isActive => ({
+            color: isActive ? "#000060" : "000060"
+          
+          })}
           to="/consult"
           
         >
@@ -32,14 +40,32 @@ function Navbar() {
         </NavLink>
         <NavLink
           className="Predict Links"
+          style={isActive => ({
+            color: isActive ? "#000060" : "000060"
+          
+          })}
           to="/predict"
           
         >
           <p>Predict</p>
         </NavLink>
-        <NavLink to="/login" className= "Login Links">Login
+        <NavLink 
+        to="/login" 
+        className= "Login Links"
+        style={isActive => ({
+          color: isActive ? "#000060" : "000060"
+        
+        })}
+        >Login
         </NavLink>
-        <NavLink to="/signUp" className= "SignUp Links">SignUp
+        <NavLink 
+        to="/signUp" 
+        className= "SignUp Links"
+        style={isActive => ({
+          color: isActive ? "black" : "white"
+        
+        })}
+        >SignUp
         </NavLink>
            </div>
         </div>
