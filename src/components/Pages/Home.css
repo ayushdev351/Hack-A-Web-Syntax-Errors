@@ -15,6 +15,7 @@
     background-position: top; 
     width: 100%;
     height: 48vh;
+    image-rendering: pixelated;
 }
 
 .textBox{
@@ -81,7 +82,7 @@
     font-weight: bold; 
     position: absolute;
     text-align: center;
-    top: 15%;
+    top: 13%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 35rem;
@@ -131,4 +132,37 @@
 .card:hover{
     transform: translate(0%, -8%);
     box-shadow: 0 1.5rem 0.5rem -1rem rgba(0, 0, 0, 0.5);
+}
+
+.Footer{
+    height: 30vh;
+    background-color: black;
+    padding: 2rem 8rem;
+    font-size: 1.4rem;
+    color: white;
+    display: flex;
+}
+
+.brandName{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.brandCopy{
+    opacity: 0.8;
+}
+
+.column{
+    margin: 0 8rem;
+}
+
+.FootHead{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.FootItem{
+    cursor: pointer;
+    color: grey;
 }

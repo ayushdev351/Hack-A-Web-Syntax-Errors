@@ -31,7 +31,7 @@ function Home() {
             
            </div>
            </div>
-           <div className="Features">
+          <div className="Features">
                <div className="FeatureText">
                    <p className="FeatureTextBig">Our Features</p>
                    <p className="FeatureTextSmall">Get To Know About Us</p>
@@ -61,6 +61,32 @@ function Home() {
                </span>
                </div>
            </div>
+          <div className="Footer">
+              <div className="brand column">
+                  <p className="brandName">DoCall</p>
+                  <p className="brandCopy">&copy; Docall 2022</p>
+              </div>
+              <div className="column">
+                  <p className="FootHead">Contact Us</p>
+                  <p className="FootItem">Instagram</p>
+                  <p className="FootItem">Facebook</p>
+                  <p className="FootItem">Twitter</p>
+                  <p className="FootItem">Quora</p>
+              </div>
+              <div className="column">
+                  <p className="FootHead">Resources</p>
+                  <p className="FootItem">First</p>
+                  <p className="FootItem">Second</p>
+                  <p className="FootItem">Third</p>
+              </div>
+              <div className="column">
+                  <p className="FootHead">About</p>
+                  <p className="FootItem">Team</p>
+                  <p className="FootItem">Location</p>
+                  <p className="FootItem">Terms</p>
+                  <p className="FootItem">Privacy</p>
+              </div>
+          </div>
            
         </div>
     );
