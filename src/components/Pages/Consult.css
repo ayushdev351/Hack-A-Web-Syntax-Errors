@@ -1,0 +1,61 @@
+.consult {
+  display: flex;
+  height: 88vh;
+  margin: 2rem 0;
+}
+
+.textSection {
+  flex: 0.4;
+  padding-left: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  font-size: 4rem;
+  font-weight: bolder;
+  color: #00ced1;
+  margin-bottom: -1rem;
+}
+
+.head {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+
+.headSub {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 0.2rem solid black;
+}
+
+.processCard {
+  height: 7rem;
+  width: 30rem;
+  /* background: linear-gradient(to top left, pink, #ff69b4); */
+  background: linear-gradient(to top left, #00ced1, aqua);
+  border-radius: 1rem;
+  margin: 2.5rem 0;
+  text-align: center;
+}
+
+.cardText {
+  padding: 1rem 1rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  opacity: 0.9;
+}
+
+.imageSection {
+  flex: 0.6;
+  text-align: right;
+}
+.consultImage {
+  image-rendering: pixelated;
+  height: 90%;
+  width: 90%;
+  margin-top: 5rem;
+}
