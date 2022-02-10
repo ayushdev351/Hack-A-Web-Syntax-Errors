@@ -1,4 +1,4 @@
-.consult {
+.consult-info {
   display: flex;
   height: 88vh;
   margin: 2rem 0;
@@ -58,4 +58,20 @@
   height: 90%;
   width: 90%;
   margin-top: 5rem;
+}
+
+.consult-doctors {
+  margin: 5rem 3rem 3rem;
+}
+
+.doctorsHead {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.diseaseCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
